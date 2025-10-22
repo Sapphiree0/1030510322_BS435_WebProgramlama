@@ -1,0 +1,20 @@
+/* Sayfa genel görünümü */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Uygulama kapsayıcısı */
+.app-container {
+  display: flex;
+  align-items: center;      /* dikey ortalama */
+  justify-content: center;  /* yatay ortalama */
+  height: 100vh;            /* tüm ekran boyu */
+  width: 100vw;             /* tüm ekran genişliği */
+  background-color: #121212;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
